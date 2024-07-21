@@ -61,9 +61,9 @@ Movie Hub is a full-stack web application built with the MERN stack (MongoDB, Ex
 4. Create a `.env` file in the main directory and add the following environment variables:
 
     # .env
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    PORT=3000
+    1. MONGO_URI=your_mongodb_connection_string
+    2. JWT_SECRET=your_jwt_secret
+    3. PORT=3000
 
 ## Usage
 
