@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use(cors({
-    origin:["http://localhost:5173"],
+    origin:["https://the-cinema-house-pwmr.vercel.app"],
     methods:["POST","GET","PATCH","PUT","DELETE"],
     credentials:true
   }));

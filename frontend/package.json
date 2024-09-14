@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy":"https://the-cinema-house-backend.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
