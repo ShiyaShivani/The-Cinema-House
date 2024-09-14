@@ -10,6 +10,7 @@ import userRoutes from "./routes/userRoutes.js";
 import genreRoutes from "./routes/genreRoutes.js";
 import moviesRoutes from "./routes/moviesRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
+import cors from "cors";
 
 // Configuration
 dotenv.config();
@@ -20,7 +21,14 @@ const app = express();
 // middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 app.use(cookieParser());
+
+app.use(cors({
+    origin:["http://localhost:5173"],
+    methods:["POST","GET","PATCH","PUT","DELETE"],
+    credentials:true
+  }));
 
 const PORT = process.env.PORT || 3000;
 
