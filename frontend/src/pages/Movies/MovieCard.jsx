@@ -5,7 +5,7 @@ const MovieCard = ({ movie }) => {
     <div key={movie._id} className="relative group m-[2rem]">
       <Link to={`/movies/${movie._id}`}>
         <img
-          src="image-1721518773093.jpeg"
+          src="https://positivecc.org/sites/default/files/field/image/Dark%20Blue%20and%20White%20Movie%20Night%20Poster%20%28Instagram%20Post%29.png"
           alt={movie.name}
           className="w-[20rem] h-[20rem] rounded m-0 p-0 transition duration-300 ease-in-out transform group-hover:opacity-50"
         />
